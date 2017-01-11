@@ -7,5 +7,6 @@
 </head>
 <body>
 <h1>Temporary Home Page</h1>
+<p> Welcome to my home page</p>
 </body>
 </html>
