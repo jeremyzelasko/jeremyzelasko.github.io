@@ -8,6 +8,6 @@
 <body>
 <h1>Temporary Home Page</h1>
 <p> Welcome to my home page</p>
-<a href="https://delliot3.github.io/designprincipleassessment.html" target="_blank">Dj Elliot's Site - Homework</a>
+<a href="https://delliot3.github.io/homework/designprincipleassessment.html" target="_blank">Dj Elliot's Site - Homework</a>
 </body>
 </html>
