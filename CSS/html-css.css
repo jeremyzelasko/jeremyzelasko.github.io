@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-size: 1em;
+    font-family: arial, "arial thin", sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: white;
+}
+
+#hi-lo {
+    list-style: none;
+}
+
+#hi-lo>li {
+    display: inline-block;
+    width: 24%;
+}
+
+#hi-lo #conditions {
+    width: 50%;
+}
+#page-header {
+    Padding:2px;
+    background-color: black;
+    text-align: left;
+    color: white;
+
+}
+
+#page-header #page-search {
+    Color:white;
+    align-content: right;
+    width:33%;
+}
+
+#main-h1 {
+    text-align: center;
+}
