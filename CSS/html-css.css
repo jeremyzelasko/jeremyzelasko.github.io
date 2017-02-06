@@ -27,23 +27,28 @@ body {
 #hi-lo>li {
     display: inline-block;
     width: 24%;
+    Border: 2px;
+    border-color: black;
 }
 
 #hi-lo #conditions {
-    width: 50%;
+    width: 48%;
+    Border: 2px;
+    border-color: black;
 }
+
 #page-header {
-    Padding:2px;
+    Padding: 2px;
     background-color: black;
     text-align: left;
     color: white;
-
 }
 
 #page-header #page-search {
-    Color:white;
+    Color: white;
     align-content: right;
-    width:33%;
+    width: 25%;
+
 }
 
 #main-h1 {
