@@ -1,0 +1,85 @@
+<doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset='utf-8'>
+        <title> Home</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/weather.css" media="screen">
+        <meta name="viewport" content="width=device-width"> </head>
+
+    <body>
+        <div id="wrapper">
+
+            <header id="page-header">
+                <div id="container">
+                    <p>Weather Channel</p>
+
+                <form id="page-search">
+                    <input type="search" placeholder="Search by city,zipcode" name="q">
+                    <input type="submit" name="submit"> </form>
+                </div>
+<nav>
+    <select onchange="window.location.href=this.value">
+        <option> Home</option>
+        <option value="franklin.html" selected="selected">Franklin</option>
+        <option> Springfield</option>
+        <option value="greenville.html" > Greenville</option>
+    </select>
+                </nav>
+
+            </header>
+            <main>
+                <h1 id= "main-h1">Franklin,ID</h1>
+                <h2>Temerpature</h2>
+                <ul id="hi-lo">
+                    <li>High
+                        <br> 90&deg;<sup>F</sup></li>
+                    <li id="conditions"><img src="../images/sunny.ico" alt="sunny">
+                        <br>&nbsp; Sunny</li>
+                    <li>Low
+                        <br> 66&deg;<sup>F</sup> </li>
+                </ul>
+                <ul id="hi-lo">
+                    <li>Percipitation
+                        <br> 0 </li>
+                    <li id="conditions">Wind Speed
+                        <br>1 - 5 mph </li>
+                    <li>Wind Direction
+                        <br> SW </li>
+                </ul>
+<h2>Hourly</h2>
+
+                  <ul id="hourly">
+                      <li>12 AM <br>67&deg;</li>
+                      <li>1 AM <br>67&deg;</li>
+                      <li>2 AM <br>69&deg;</li>
+                      <li>3 AM <br>69&deg;</li>
+                      <li>4 AM <br>69&deg;</li>
+                      <li>5 AM <br>70&deg;</li>
+                      <li>6 AM <br>69&deg;</li>
+                      <li>7 AM <br>72&deg;</li>
+                      <li>8 AM <br>74&deg;</li>
+                      <li>9 AM <br>77&deg;</li>
+                      <li>10 AM <br>79&deg;</li>
+                      <li>11 AM <br>81&deg;</li>
+                      <li>12 PM <br>84&deg;</li>
+                      <li>1 PM <br>86&deg;</li>
+                      <li>2 PM <br>88&deg;</li>
+                      <li>3 PM <br>90&deg;</li>
+                      <li>4 PM <br>90&deg;</li>
+                      <li>5 PM <br>85&deg;</li>
+                      <li>6 PM <br>83&deg;</li>
+                      <li>7 PM <br>79&deg;</li>
+                      <li>8 PM <br>74&deg;</li>
+                      <li>9 PM <br>70&deg;</li>
+                      <li>10 PM <br>68&deg;</li>
+                      <li>11 PM <br>66&deg;</li>
+                  </ul>
+
+
+            </main>
+            <footer id="page-footer">
+            <p>weather Channel&copy;</p>
+            </footer>
+        </div>
+    </body>
