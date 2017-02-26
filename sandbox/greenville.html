@@ -20,7 +20,7 @@
                     </div>
                     <nav>
                         <select onchange="window.location.href=this.value">
-                            <option> Home</option>
+                            <option value="../home.html"> Home</option>
                             <option value="franklin.html">Franklin</option>
                             <option> Springfield</option>
                             <option value="greenville.html" selected="selected"> Greenville</option>
@@ -34,7 +34,7 @@
                     <ul id="hi-lo">
                         <li>High
                             <br> 84&deg;<sup>F</sup></li>
-                        <li id="conditions"><img src=../images/thunder.png alt="thunder">
+                        <li id="conditions"><img id="pic" src=../images/thunder.png alt="thunder">
                             <br>&nbsp; Thunderstorms</li>
                         <li>Low
                             <br> 55&deg;<sup>F</sup> </li>
@@ -47,9 +47,9 @@
                         <li>Wind Direction
                             <br> W </li>
                     </ul>
-                    <h2>Hourly</h2>
-
-                    <ul id="hourly">
+                    <h2 id="hourly-title">Hourly</h2>
+                    <div class="flexbox-container" id="test">
+                    <ul id="hourly1">
                         <li>12 AM <br>55&deg;</li>
                         <li>1 AM <br>56&deg;</li>
                         <li>2 AM <br>56&deg;</li>
@@ -62,6 +62,8 @@
                         <li>9 AM <br>67&deg;</li>
                         <li>10 AM <br>70&deg;</li>
                         <li>11 AM <br>73&deg;</li>
+                    </ul>
+                    <ul id="hourly2">
                         <li>12 PM <br>77&deg;</li>
                         <li>1 PM <br>80&deg;</li>
                         <li>2 PM <br>84&deg;</li>
@@ -75,6 +77,7 @@
                         <li>10 PM <br>60&deg;</li>
                         <li>11 PM <br>58&deg;</li>
                     </ul>
+                    </div>
 
 
                 </main>
