@@ -1,0 +1,96 @@
+<doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset='utf-8'>
+        <title> Presentation</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/pres-css.css" media="screen">
+        <meta name="viewport" content="width=device-width"> </head>
+
+    <body>
+        <header id="page-head">
+            <h1> Margin and Padding</h1>
+
+                <ul id="menu">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#box-model">Box Model</a></li>
+                    <li><a href="#margin">Margins</a></li>
+                    <li><a href="#padding">Padding</a></li>
+                    <li><a href="#editing">Editing</a></li>
+                </ul>
+
+        </header>
+        <main>
+            <div id="overview">
+                <h1>Overview</h1>
+                <p> This lesson is a over Margins and Padding. We will start with a quick review over the Box Model as both margin and padding deal directly with the box model. Then I will talk about Margins followed by padding and then how to edit either of them. </p>
+            </div>
+            <div id="box-model">
+                <h2> Box Model</h2>
+                <p>The box model is what define each elements spacing. It is manipulated by 4 differnt factors:Width of the element, margin, boder and padding. As shown in these two pictures below. Feel free to reference to them at any time. </p>
+                <div class="flex-container"> <img id="pic" src=../images/boxmodel1.png alt="Box Model Example 1"> <img id="pic" src=../images/boxmodel2.png alt="Box Model Example 2"> </div>
+            </div>
+            <div id="margin">
+                <h2>Margins</h2>
+                <p>Simply put, margins are the space around the element.</p>
+                <p>Margins are outside of the border and are completely transperent, meaning they have no background color.</p>
+                <p>Here is an example of two normaly spaced elements by a margin </p> <img id="pic" src=../images/normal.png alt="Normal Margin and padding.">
+                <p>Here is what happens when you set the margin to 0 as shown in the code next to it.</p>
+                <div class="flex-container"> <img id="pic" src=../images/margincode.png alt="Example code of setting the margin to 0"> <img id="pic" src=../images/maredit.png alt="edited margin example"> </div>
+                <p>See How now there is no space inbetween the two elements. That space was the margin.</p>
+            </div>
+
+            <div id="padding">
+            <h2>Padding</h2>
+                <P>Padding is on the inside of each border. It will take on the background color of the element. Padding is the space between the content and the border of the element.</P>
+                <p> To illistrate here is a picture of normal padding followed by a picture that has a padding of 50px.</p>
+                <div class="flex-container"> <img id="pic" src=../images/normal.png alt="Example of normal padding"><br> <img id="pic" src=../images/paddingcode.png alt="eAn Example of the code to edit margin."> <br> <img id="pic" src=../images/padedit.png alt="Example of padding with 50 px">
+                <p> As you can see the padding created more space between the words and the border.</p>
+                </div>
+
+            </div>
+
+                <div id="editing">
+                    <h2>Editing</h2>
+            <p> Editing principles of Margin and Padding are exaclty the same with exception of the prefix you use. </p>
+<p> Both can be edited either holistically, meaning all sides at once, or just editing a certain side.</p>
+                    <p> To do so choose which you are editing (margin or padding) for this example we will use margin. Then simple state you are editing that and which side joined with a "-" </p>
+                    <p> For Example:</p>
+                    <ul>
+                    <li>Margin:</li>
+                    <li>Margin-top</li>
+                        <li>Margin-left:</li>
+                        <li>Marin-right:</li>
+                        <li>Margin-bottom:</li>
+                    </ul>
+                    <p> Pretty simple. The first option is kind of special. If you put just one number it will edit all sides however it you put mulitple numbers it changes.</p>
+
+                   <p>Exp:
+                       Margin: 25px 50px 30 px 70 px;   This would change the margin as follows:</p>
+<ul>
+
+    <li>Top – 25px</li>
+    <li> Right – 50px</li>
+   <li> Bottom – 30px </li>
+                   <li> Left – 70px</li>
+                    </ul>
+
+                    <p>If the margin has three numbers - Margin: 5px 10px 15px;
+                        The margin would change as follows:</p>
+                    <ul>
+                    <li>  Top - 5px</li>
+                    <li> Right and left – 10 px</li>
+                    <li> Bottom – 25px</li>
+                    </ul>
+                    <p>If it has two numbers - Margin: 5px 10px;</p>
+                    <ul>
+            <li>  Top and bottom - 5px</li>
+            <li>  Right and Left - 10px</li>
+
+                    </ul>
+                    <p> Again, all principles are the same for padding, simple replace the word "margin" with "padding".</p>
+
+            </div>
+
+        </main>
+    </body>

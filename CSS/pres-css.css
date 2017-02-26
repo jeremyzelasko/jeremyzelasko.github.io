@@ -1,0 +1,81 @@
+#pic{
+    width:400px;
+}
+#page-head {
+    list-style: none;
+background-color: black;
+    width: 100%;
+    padding-left:20px;
+padding-bottom: 3px;
+    padding-top: 1px;
+    color:floralwhite;
+    overflow: hidden;
+
+
+
+}
+
+#menu{
+  list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 500px;
+
+
+}
+
+body{
+
+    list-style: none;
+    background-color:#c2c0bf;
+    margin:0px;
+
+
+}
+
+#overview{
+    padding-left: 20px;
+    max-width:850px;
+    min-width: 100px;
+    height: 250px;
+
+
+}
+
+#box-model{
+    padding-left: 20px;
+    max-width:850px;
+    min-width: 100px;
+
+}
+#margin{
+    padding-left: 20px;
+    max-width:850px;
+    min-width: 100px;
+    height: 600px;
+}
+#padding{
+    padding-left: 20px;
+    max-width:850px;
+    min-width: 100px;
+    height: 600px;
+}
+#editing{
+    padding-left: 20px;
+    max-width:850px;
+    min-width: 100px;
+    height: 1250px;
+}
+a:link{ color:red;
+
+}
+a:visited{
+    color:red;
+}
+a:hover {
+    color:white;
+}
+a:active{
+    color: aquamarine;
+}
