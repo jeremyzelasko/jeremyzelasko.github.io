@@ -3,7 +3,7 @@
 }
 #page-head {
     list-style: none;
-background-color: black;
+    background-color: black;
     width: 100%;
     padding-left:20px;
 padding-bottom: 3px;
@@ -28,7 +28,7 @@ padding-bottom: 3px;
 body{
 
     list-style: none;
-    background-color:#c2c0bf;
+    background-color:cadetblue;
     margin:0px;
 
 
@@ -67,11 +67,11 @@ body{
     min-width: 100px;
     height: 1250px;
 }
-a:link{ color:red;
+a:link{ color:aqua;
 
 }
 a:visited{
-    color:red;
+    color:aqua;
 }
 a:hover {
     color:white;
